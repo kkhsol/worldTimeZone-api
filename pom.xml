@@ -9,10 +9,6 @@
     <packaging>mule-application</packaging>
 
 	<name>ci-cd-demo-api</name>
-	
-	
-	
-
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -34,6 +30,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				 <cloudHubDeployment>
+		            <uri>https://anypoint.mulesoft.com</uri>
+		            <muleVersion>4.2.2</muleVersion>
+		            <username>kahsay</username>
+		            <password>Selemawit44**</password>
+		            <applicationName>WorldTimeZone-api</applicationName>
+		            <environment>Sandbox</environment>
+		            <workerType>MICRO</workerType>
+		            <workers>1</workers>
+		            <objectStoreV2>true</objectStoreV2>
+		        </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
