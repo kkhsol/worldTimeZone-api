@@ -32,7 +32,7 @@
 				<configuration>
 				 <cloudHubDeployment>
 		            <uri>https://anypoint.mulesoft.com</uri>
-		            <muleVersion>4.2.2</muleVersion>
+		            <muleVersion>4.3.0</muleVersion>
 		            <username>kahsay</username>
 		            <password>Selemawit44**</password>
 		            <applicationName>WorldTimeZone-api</applicationName>
